@@ -12,6 +12,6 @@
 * Klipper Mod - drop_first_result:true (https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/klipper_mods/klipper%20mod%20-%20drop_first_result.md)
   * ```wget https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/klipper_mods/install_drop_first_result.sh```
   * ```sudo chmod +x install_drop_first_result.sh```
-  * ```bash install_drop_first_result.sh```
+  * ```bash install_drop_first_result.sh```  
 --  
 no warranty for website links or mods - use at own risk
