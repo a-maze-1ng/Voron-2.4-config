@@ -13,5 +13,9 @@
   * ```wget https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/klipper_mods/install_drop_first_result.sh```
   * ```sudo chmod +x install_drop_first_result.sh```
   * ```bash install_drop_first_result.sh```  
+  
+  
+  
+  
 --  
 no warranty for website links or mods - use at own risk
