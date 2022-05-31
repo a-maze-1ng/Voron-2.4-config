@@ -14,8 +14,5 @@
   * ```sudo chmod +x install_drop_first_result.sh```
   * ```bash install_drop_first_result.sh```  
   
-  
-  
-  
 --  
 no warranty for website links or mods - use at own risk
