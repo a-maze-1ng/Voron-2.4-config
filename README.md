@@ -13,6 +13,12 @@
   * ```wget https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/klipper_mods/install_drop_first_result.sh```
   * ```sudo chmod +x install_drop_first_result.sh```
   * ```bash install_drop_first_result.sh```  
-  
+
 --  
 no warranty for website links or mods - use at own risk
+
+## Own macros
+# PID tuning
+```DO_PID_TUNE_EXTRUDER PID_TEMP=210```  
+# Move to X175 Y175 Z150 if Z position is < 150 mm
+```PRINT_END_POS```  
