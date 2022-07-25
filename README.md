@@ -17,6 +17,27 @@
 --  
 no warranty for website links or mods - use at own risk
 
+## Octoprint
+Im running Octoprint with OctoKlipper plugin. 
+Why?  
+* I want to turn on and off my machine via Telegram / automatic after a print is finished
+* track the printer stats
+* control GPIOs of the RPi via the GUI interface
+
+### Plugins  
+* OctoKlipper
+* PSU Control
+* Telegram Notifications
+* Plotly Temp Graph
+* Print Job History
+* Printer Stats
+* Resource Monitor
+* GPIO Control
+* PrintJobHistory 
+* Simple Emergency Stop
+* Slicer Thumbnails
+* Top Temp
+
 ## Own macros
 # PID tuning
 ```DO_PID_TUNE_EXTRUDER PID_TEMP=210```  
