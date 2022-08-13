@@ -24,7 +24,7 @@ Why?
 * track the printer stats
 * control GPIOs of the RPi via the GUI interface
 
-### Special Settings  
+### Essential Setting for Octoprint
 * set baudrate to 250000 !
 
 ### Plugins  
