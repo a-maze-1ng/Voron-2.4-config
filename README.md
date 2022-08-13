@@ -24,6 +24,9 @@ Why?
 * track the printer stats
 * control GPIOs of the RPi via the GUI interface
 
+### Special Settings  
+* set baudrate to 250000 !
+
 ### Plugins  
 * OctoKlipper
 * PSU Control
