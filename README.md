@@ -24,9 +24,6 @@ Why?
 * track the printer stats
 * control GPIOs of the RPi via the GUI interface
 
-### Essential Setting for Octoprint
-* set baudrate to 250000 !
-
 ### Plugins  
 * OctoKlipper
 * PSU Control
@@ -46,3 +43,6 @@ Why?
 ```DO_PID_TUNE_EXTRUDER PID_TEMP=210```  
 # Move to X175 Y175 Z150 if Z position is < 150 mm
 ```PRINT_END_POS```  
+
+## Good websites
+* https://klippylyzer.github.io/  
