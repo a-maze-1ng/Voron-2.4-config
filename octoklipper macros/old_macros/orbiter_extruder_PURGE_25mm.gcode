@@ -1,0 +1,11 @@
+SET_FILAMENT_SENSOR SENSOR=btt_sensor ENABLE=0 ;turn off filament sensor
+G91
+M83
+G1 E5 F300
+G1 E5 F300
+G1 E5 F300
+G1 E5 F300
+G1 E5 F300
+M82
+G90
+SET_FILAMENT_SENSOR SENSOR=btt_sensor ENABLE=1 ;turn on filament sensor
