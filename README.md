@@ -44,9 +44,12 @@ Why?
 * Slicer Thumbnails
 * Top Temp
 
-## Own macros
-# Move to X175 Y175 Z150 if Z position is < 150 mm
+## Macros
+### Move to X175 Y175 Z150 if Z position is < 150 mm
 ```PRINT_END_POS```  
+
+### Enable axis movement without homing, be carefull!
+SET_KINEMATIC_POSITION X=0 Y=0 Z=0
 
 ## Good websites
 * https://klippylyzer.github.io/  
