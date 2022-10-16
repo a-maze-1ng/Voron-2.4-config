@@ -49,7 +49,7 @@ Why?
 ```PRINT_END_POS```  
 
 ### Enable axis movement without homing, be carefull!
-SET_KINEMATIC_POSITION X=0 Y=0 Z=0
+```SET_KINEMATIC_POSITION X=0 Y=0 Z=0```
 
 ## Good websites
 * https://klippylyzer.github.io/  
