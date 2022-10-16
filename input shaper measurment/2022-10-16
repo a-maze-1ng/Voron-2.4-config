@@ -1,4 +1,13 @@
-# 16.10.2022
+V2.4 R1
+#alte einstellung
+# V2.4 R1
+#[input_shaper]
+#shaper_freq_x: 38.0
+#shaper_type_x: ei
+#shaper_freq_y: 37.2
+#shaper_type_y: mzv
+
+# change from V2.4 R1 to V2.4 R2
 
 
 ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_20221014_183609.csv -o /tmp/shaper_calibrate_x.png
