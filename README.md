@@ -1,5 +1,9 @@
 # Voron-2.4-config
-## Current Voron 2.4 config
+## Tuning  
+### Input shaper  
+https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/input_shaper.md  
+
+## Voron 2.4 hardware / software config
 * Bigtreetech Smart Filament Sensor  
 * Klicky Probe  
   * Auto Z-Calibration  
