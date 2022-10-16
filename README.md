@@ -2,6 +2,8 @@
 ## Tuning  
 ### Input shaper  
 https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/input_shaper.md  
+### PID tuning  
+```DO_PID_TUNE_EXTRUDER PID_TEMP=210```  
 
 ## Voron 2.4 hardware / software config
 * Bigtreetech Smart Filament Sensor  
@@ -43,8 +45,6 @@ Why?
 * Top Temp
 
 ## Own macros
-# PID tuning
-```DO_PID_TUNE_EXTRUDER PID_TEMP=210```  
 # Move to X175 Y175 Z150 if Z position is < 150 mm
 ```PRINT_END_POS```  
 
