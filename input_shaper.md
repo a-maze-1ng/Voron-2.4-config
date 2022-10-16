@@ -13,7 +13,7 @@ max_accel_to_decel: 10000 -> add
 ```G1 X175 Y175 Z50 F2000 ;Extruder position in the middle of the printer```  
 
 ## ADXL probe
-### Check ADXL probe
+### Attach and check ADXL probe
 ```ACCELEROMETER_QUERY```
 
 ### Measure axis noise
