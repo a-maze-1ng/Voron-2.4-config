@@ -31,7 +31,7 @@ Why?
 * Plotly Temp Graph
 * Print Job History
 * Printer Stats
-* Resource Monitor
+* Resource Monitor (disabel because of https://github.com/Renaud11232/OctoPrint-Resource-Monitor/issues/37)
 * GPIO Control
 * PrintJobHistory 
 * Simple Emergency Stop
