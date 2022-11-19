@@ -48,6 +48,10 @@ Why?
 ### Move to X175 Y175 Z150 if Z position is < 150 mm
 ```PRINT_END_POS```  
 
+### Prepare for input shaping  
+* Home, QGL, Move Extruder in the middle of the bed, turn off part cooling  
+```PREPARE_FOR_INPUT_SHAPING```  
+
 ### Enable axis movement without homing, be carefull!
 When locating the Z stop, Octoprint behaves a bit strangely (emergency shutdown)  
 Therefore the X and Y axis are homed, then the kinematic position is set to a random Z value  
