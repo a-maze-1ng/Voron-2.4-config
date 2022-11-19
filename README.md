@@ -49,7 +49,15 @@ Why?
 ```PRINT_END_POS```  
 
 ### Enable axis movement without homing, be carefull!
-```SET_KINEMATIC_POSITION X=350 Y=350 Z=150```
+When locating the Z stop, Octoprint behaves a bit strangely (emergency shutdown)  
+Therefore the X and Y axis are homed, then the kinematic position is set to a random Z value  
+Finetuning with movement via Ocotprint is now possible without homing  
+Be careful, you can run your nozzle into your bed!  
+Following Gcode examples are for the V2.4! You might need to adjust everything to your system
+
+```G28 X```  
+```G28 Y```  
+```SET_KINEMATIC_POSITION X=350 Y=350 Z=150```  
 
 ## Good websites
 * https://klippylyzer.github.io/  
