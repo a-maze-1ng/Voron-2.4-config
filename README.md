@@ -46,8 +46,9 @@ Why?
 
 ## Macros
 ### Move to X175 Y175 Z150 if Z position is < 150 mm
-* Move Extruder to the front (X = 175, Y = 50) if the Z position is below 150 mm  
-* This macro prevents the extruder from sagging, which disturbs the QGL process
+* If the Z-position is below 150mm then move Extruder to the front (X = 175, Y = 50) and set the Z-position to 150 mm  
+* If the Z-position is equal or larger than 150mm then move Extruder to the front (X = 175, Y = 50)  
+* This macro prevents the extruder from sagging, which disturbs the QGL process  
 
 ```PRINT_END_POS```  
 
