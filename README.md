@@ -50,6 +50,7 @@ Why?
 
 ### Prepare for input shaping  
 * Home, QGL, Move Extruder in the middle of the bed, turn off part cooling  
+
 ```PREPARE_FOR_INPUT_SHAPING```  
 
 ### Enable axis movement without homing, be carefull!
