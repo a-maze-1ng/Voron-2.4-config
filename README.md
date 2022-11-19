@@ -57,6 +57,11 @@ Why?
 
 ```PREPARE_FOR_INPUT_SHAPING```  
 
+### Prepare for auto Z calibration
+* Home, QGL, Calibrate_Z, Move Extruder in the middle of the bed, turn off part cooling  
+
+```PREPARE_FOR_AUTO_Z_CALIBRATION```
+
 ### Enable axis movement without homing, be carefull!
 When locating the Z stop, Octoprint behaves a bit strangely (emergency shutdown)  
 Therefore the X and Y axis are homed, then the kinematic position is set to a random Z value  
