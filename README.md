@@ -44,6 +44,16 @@ Why?
 * Slicer Thumbnails
 * Top Temp
 
+## Voron 2.4 Mods
+
+### installed  
+* https://www.printables.com/model/172368-voron-24-filament-latch-or-any-2020-extrusion  
+* https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers  
+* https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Trident_Pins_Mod  
+
+### future project  
+* https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_GE5C  
+
 ## Macros
 ### Move to X175 Y175 Z150 if Z position is < 150 mm
 * If the Z-position is below 150mm then move Extruder to the front (X = 175, Y = 50) and set the Z-position to 150 mm  
