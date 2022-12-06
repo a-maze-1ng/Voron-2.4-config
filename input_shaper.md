@@ -9,8 +9,7 @@ max_accel: 10000  -> add
 max_accel_to_decel: 10000 -> add  
 
 ## Home and QGL, Extruder position middle
-```G32 ;QGL```  
-```G1 X175 Y175 Z50 F2000 ;Extruder position in the middle of the printer```  
+```PREPARE_FOR_INPUT_SHAPING```  
 
 ## ADXL probe
 ### Attach and check ADXL probe
