@@ -16,7 +16,6 @@ max_accel_to_decel: 10000 -> add
 ```ACCELEROMETER_QUERY```
 
 ### Measure axis noise
-```M106 S0 ;deactivate fan```  
 ```MEASURE_AXES_NOISE```  
 
 -> below 100 values are good  
