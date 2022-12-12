@@ -2,8 +2,12 @@
 ## Tuning  
 ### Input shaper  
 https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/input_shaper.md  
+
 ### PID tuning  
 ```DO_PID_TUNE_EXTRUDER PID_TEMP=210```  
+
+### Ultimate Printer Tuning Guide by Andrew Ellis  
+https://ellis3dp.com/Print-Tuning-Guide/  
 
 ## Voron 2.4 hardware / software config
 * Bigtreetech Smart Filament Sensor  
