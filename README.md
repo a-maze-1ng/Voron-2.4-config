@@ -87,6 +87,10 @@ Following Gcode examples are for the V2.4! You might need to adjust everything t
 ```G28 Y```  
 ```SET_KINEMATIC_POSITION X=350 Y=350 Z=150```  
 
+### Z-Endstop location  
+klicky-variables.cfg  
+z-calibration.cfg  
+
 ## Good websites
 * https://klippylyzer.github.io/  
 * https://docs.vorondesign.com/
