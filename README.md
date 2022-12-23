@@ -1,5 +1,9 @@
 # Voron-2.4-config
 ## Tuning  
+
+### Install a Raspberry Pi as a secondary MCU (Klipper)  
+https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/RPi_as_Klipper_MCU.md  
+
 ### Input shaper  
 https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/input_shaper.md  
 
