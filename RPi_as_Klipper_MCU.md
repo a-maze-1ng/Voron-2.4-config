@@ -10,3 +10,5 @@ https://www.klipper3d.org/RPi_microcontroller.html
 8. ```sudo service klipper stop```  
 9. ```make flash```  
 10. ```sudo service klipper start```  
+11. ```sudo raspi-config``` 
+12. Interface Options --> SPI --> enable  
