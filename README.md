@@ -1,9 +1,17 @@
 # Voron-2.4-config
 ## Tuning  
+
+### Install a Raspberry Pi as a secondary MCU (Klipper)  
+https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/RPi_as_Klipper_MCU.md  
+
 ### Input shaper  
 https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/input_shaper.md  
+
 ### PID tuning  
 ```DO_PID_TUNE_EXTRUDER PID_TEMP=210```  
+
+### Ultimate Printer Tuning Guide by Andrew Ellis  
+https://ellis3dp.com/Print-Tuning-Guide/  
 
 ## Voron 2.4 hardware / software config
 * Bigtreetech Smart Filament Sensor  
@@ -23,26 +31,15 @@ https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/input_shaper.md
 --  
 no warranty for website links or mods - use at own risk
 
-## Octoprint
-Im running Octoprint with OctoKlipper plugin. 
-Why?  
-* I want to turn on and off my machine via Telegram / automatic after a print is finished
-* track the printer stats
-* control GPIOs of the RPi via the GUI interface
+## Voron 2.4 Mods
 
-### Plugins  
-* OctoKlipper
-* PSU Control
-* Telegram Notifications
-* Plotly Temp Graph
-* Print Job History
-* Printer Stats
-* Resource Monitor (disabel because of https://github.com/Renaud11232/OctoPrint-Resource-Monitor/issues/37)
-* GPIO Control
-* PrintJobHistory 
-* Simple Emergency Stop
-* Slicer Thumbnails
-* Top Temp
+### installed  
+* https://www.printables.com/model/172368-voron-24-filament-latch-or-any-2020-extrusion  
+* https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers  
+* https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Trident_Pins_Mod  
+
+### future project  
+* https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_GE5C  
 
 ## Macros
 ### Move to X175 Y175 Z150 if Z position is < 150 mm
@@ -72,6 +69,10 @@ Following Gcode examples are for the V2.4! You might need to adjust everything t
 ```G28 X```  
 ```G28 Y```  
 ```SET_KINEMATIC_POSITION X=350 Y=350 Z=150```  
+
+### Z-Endstop location  
+klicky-variables.cfg  
+z-calibration.cfg  
 
 ## Good websites
 * https://klippylyzer.github.io/  
