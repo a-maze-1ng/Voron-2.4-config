@@ -32,7 +32,8 @@ void setup()
   // load cell factor 20 KG
   // scale.set_scale(127.15);
   // load cell factor 5 KG
-  scale.set_scale(420.0983);       // TODO you need to calibrate this yourself.
+  //scale.set_scale(420.0983);       // TODO you need to calibrate this yourself.
+  scale.set_scale(403.69);
   scale.tare();
 
   Serial.print("UNITS: ");
