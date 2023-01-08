@@ -1,0 +1,29 @@
+changed belt tension and location of the printer
+
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_20230108_123636.csv -o /tmp/shaper_calibrate_x.png
+Fitted shaper 'zv' frequency = 54.2 Hz (vibrations = 11.6%, smoothing ~= 0.059)
+To avoid too much smoothing with 'zv', suggested max_accel <= 11400 mm/sec^2
+Fitted shaper 'mzv' frequency = 53.0 Hz (vibrations = 0.0%, smoothing ~= 0.073)
+To avoid too much smoothing with 'mzv', suggested max_accel <= 8300 mm/sec^2
+Fitted shaper 'ei' frequency = 59.2 Hz (vibrations = 0.0%, smoothing ~= 0.092)
+To avoid too much smoothing with 'ei', suggested max_accel <= 6500 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 80.4 Hz (vibrations = 0.0%, smoothing ~= 0.083)
+To avoid too much smoothing with '2hump_ei', suggested max_accel <= 7200 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 96.4 Hz (vibrations = 0.0%, smoothing ~= 0.088)
+To avoid too much smoothing with '3hump_ei', suggested max_accel <= 6800 mm/sec^2
+Recommended shaper is mzv @ 53.0 Hz
+
+
+
+ ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_20230108_124401.csv -o /tmp/shaper_calibrate_y.png
+Fitted shaper 'zv' frequency = 39.4 Hz (vibrations = 1.1%, smoothing ~= 0.103)
+To avoid too much smoothing with 'zv', suggested max_accel <= 6000 mm/sec^2
+Fitted shaper 'mzv' frequency = 40.0 Hz (vibrations = 0.0%, smoothing ~= 0.127)
+To avoid too much smoothing with 'mzv', suggested max_accel <= 4700 mm/sec^2
+Fitted shaper 'ei' frequency = 47.6 Hz (vibrations = 0.0%, smoothing ~= 0.142)
+To avoid too much smoothing with 'ei', suggested max_accel <= 4200 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 59.4 Hz (vibrations = 0.0%, smoothing ~= 0.153)
+To avoid too much smoothing with '2hump_ei', suggested max_accel <= 3900 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 71.4 Hz (vibrations = 0.0%, smoothing ~= 0.161)
+To avoid too much smoothing with '3hump_ei', suggested max_accel <= 3700 mm/sec^2
+Recommended shaper is zv @ 39.4 Hz

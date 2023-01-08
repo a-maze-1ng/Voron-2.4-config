@@ -1,0 +1,28 @@
+changed motor current from 0.8 to 0.9 for A and B drive
+
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_20230108_172716.csv -o /tmp/shaper_calibrate_x.png
+Fitted shaper 'zv' frequency = 54.2 Hz (vibrations = 13.6%, smoothing ~= 0.059)
+To avoid too much smoothing with 'zv', suggested max_accel <= 11400 mm/sec^2
+Fitted shaper 'mzv' frequency = 52.2 Hz (vibrations = 0.3%, smoothing ~= 0.075)
+To avoid too much smoothing with 'mzv', suggested max_accel <= 8000 mm/sec^2
+Fitted shaper 'ei' frequency = 58.8 Hz (vibrations = 0.1%, smoothing ~= 0.093)
+To avoid too much smoothing with 'ei', suggested max_accel <= 6400 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 78.8 Hz (vibrations = 0.0%, smoothing ~= 0.087)
+To avoid too much smoothing with '2hump_ei', suggested max_accel <= 6900 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 96.4 Hz (vibrations = 0.0%, smoothing ~= 0.088)
+To avoid too much smoothing with '3hump_ei', suggested max_accel <= 6800 mm/sec^2
+Recommended shaper is mzv @ 52.2 Hz
+
+
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_20230108_173031.csv -o /tmp/shaper_calibrate_y.png
+Fitted shaper 'zv' frequency = 40.2 Hz (vibrations = 7.2%, smoothing ~= 0.099)
+To avoid too much smoothing with 'zv', suggested max_accel <= 6300 mm/sec^2
+Fitted shaper 'mzv' frequency = 40.0 Hz (vibrations = 0.0%, smoothing ~= 0.127)
+To avoid too much smoothing with 'mzv', suggested max_accel <= 4700 mm/sec^2
+Fitted shaper 'ei' frequency = 47.8 Hz (vibrations = 0.0%, smoothing ~= 0.141)
+To avoid too much smoothing with 'ei', suggested max_accel <= 4300 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 59.6 Hz (vibrations = 0.0%, smoothing ~= 0.152)
+To avoid too much smoothing with '2hump_ei', suggested max_accel <= 3900 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 71.8 Hz (vibrations = 0.0%, smoothing ~= 0.159)
+To avoid too much smoothing with '3hump_ei', suggested max_accel <= 3800 mm/sec^2
+Recommended shaper is mzv @ 40.0 Hz
