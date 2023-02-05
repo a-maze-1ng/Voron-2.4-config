@@ -27,6 +27,6 @@ note the .csv
 e.g. /tmp/resonances_y_20221014_183905.csv  
 
 ## 6. Connect to RPi via Putty  
-```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_20230205_170122.csv -o /tmp/shaper_calibrate_x.png```  
+```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_20230205_172354.csv -o /tmp/shaper_calibrate_x.png```  
 ```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_20230205_170738.csv -o /tmp/shaper_calibrate_y.png```  
 Optional: download diagram (to be found in /tmp)  
