@@ -74,6 +74,12 @@ Following Gcode examples are for the V2.4! You might need to adjust everything t
 klicky-variables.cfg  
 z-calibration.cfg  
 
+### Klicky dock location  
+klicky-variables.cfg  
+
+### Klicky Auto Z Calibration location  
+z-calibration.cfg  
+
 ## Good websites
 * https://klippylyzer.github.io/  
 * https://docs.vorondesign.com/
