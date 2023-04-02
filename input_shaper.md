@@ -27,6 +27,6 @@ note the .csv
 e.g. /tmp/resonances_y_20221014_183905.csv  
 
 ## 6. Connect to RPi via Putty  
-```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_20230402_203729.csv -o /tmp/2023-04-02 - shaper_calibrate_x.png - after GE5C mod - with panels - door open - filament loaded```  
-```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_20230402_194618.csv -o /tmp/2023-04-02 - shaper_calibrate_y.png - after GE5C mod - with panels - door open - filament loaded```  
+```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_20230402_203729.csv -o /tmp/2023-04-02 - shaper_calibrate_x - after GE5C mod - with panels - door open - filament loaded.png```  
+```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_20230402_194618.csv -o /tmp/2023-04-02 - shaper_calibrate_y - after GE5C mod - with panels - door open - filament loaded.png```  
 Optional: download diagram (to be found in /tmp)  
