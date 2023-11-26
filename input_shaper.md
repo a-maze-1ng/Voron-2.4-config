@@ -12,10 +12,14 @@ max_accel_to_decel: 10000 -> add
 ```PREPARE_FOR_INPUT_SHAPING```  
 
 ## 3. Attach and check ADXL probe
-```ACCELEROMETER_QUERY```
+```ACCELEROMETER_QUERY```  
+or  
+```CHECK ACCELEROMETER``` Macro  
 
 ## 4. Measure axis noise
 ```MEASURE_AXES_NOISE```  
+or  
+```CHECK_AXES_NOISE``` Macro  
 
 -> below 100 values are good  
 -> deactivate any fan!
