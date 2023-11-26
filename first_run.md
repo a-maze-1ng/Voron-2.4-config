@@ -10,11 +10,13 @@ https://docs.vorondesign.com/build/startup/
 8. set ```homing_speed: 3``` in ```z-stepper.cfg```  
 9. ```G28 X``` home X axis  
 10. ```G28 Y``` home Y axis  
-11. ```SET_KINEMATIC_POSITION X=350 Y=350 Z=150``` set actual position for Z-endstop location - BE VERY CAREFUL !!!  
-12. manual move to the Z-endstop location  
-13. ```M114``` get actual position for Z-endstop location -> insert everything in ```klicky-variables.cfg```  
-14. ```FIRMWARE_RESTART```  
-15. ```G28```  
-16. get klicky probe location -> same procedure  
-17. ```QUERY_PROBE``` check endstops  
-18. PID tuning of hotend and bed
+11. ```SET_KINEMATIC_POSITION X=350 Y=350 Z=200``` set actual position for Z-endstop location - BE VERY CAREFUL !!!
+12. ```G1 X___ F1000``` move to X-position
+13. ```G1 Y___ F1000``` move to Y-position
+14. manual move to the Z-endstop location  
+16. ```M114``` get actual position for Z-endstop location -> insert everything in ```klicky-variables.cfg```  
+17. ```FIRMWARE_RESTART```  
+18. ```G28```  
+19. get klicky probe location -> same procedure  
+20. ```QUERY_PROBE``` check endstops  
+21. PID tuning of hotend and bed
