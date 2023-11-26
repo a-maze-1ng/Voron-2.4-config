@@ -18,5 +18,8 @@ https://docs.vorondesign.com/build/startup/
 17. ```FIRMWARE_RESTART```  
 18. ```G28```  
 19. get klicky probe location -> same procedure  
-20. ```QUERY_PROBE``` check endstops  
-21. PID tuning of hotend and bed
+20. update ```klicky-variables.cfg```  
+21. ```Attach_Probe``` Attach probe  
+22. ```QUERY_PROBE``` check endstops
+23. ```Dock_Probe``` Attach probe
+24. PID tuning of hotend and bed
