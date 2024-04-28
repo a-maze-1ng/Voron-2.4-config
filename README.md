@@ -37,9 +37,7 @@ no warranty for website links or mods - use at own risk
 * https://www.printables.com/model/172368-voron-24-filament-latch-or-any-2020-extrusion  
 * https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers  
 * https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Trident_Pins_Mod  
-
-### future project  
-* https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_GE5C  
+* https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_GE5C
 
 ## Macros
 ### Move to X175 Y175 Z150 if Z position is < 150 mm
