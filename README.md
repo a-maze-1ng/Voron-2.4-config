@@ -16,7 +16,8 @@ https://ellis3dp.com/Print-Tuning-Guide/
 ## Voron 2.4 hardware / software config
 * Bigtreetech Smart Filament Sensor  
 * Klicky Probe  
-  * Auto Z-Calibration  
+  * Auto Z-Calibration
+  * Drop first result (https://github.com/a-maze-1ng/Voron-2.4-config/tree/main/klipper_mods/drop_first_result)
 * Orbiter 2.0  
 * Stealthburner (https://github.com/elcrni/Voron-Mods/tree/main/Orbiter_2.0_SB_CW2_Enclosed)    
 * Phaetus Dragon High Flow Hot-End with 0.4 mm Bondtech CHT Nozzle  
