@@ -1,2 +1,3 @@
-z:P1.24 --> Stealthburner LEDs  
+# Naming cables @ toolhead
+* z:P1.24 --> Stealthburner LEDs  
 
