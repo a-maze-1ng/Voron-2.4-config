@@ -70,8 +70,11 @@ Following Gcode examples are for the V2.4! You might need to adjust everything t
 ```SET_KINEMATIC_POSITION X=350 Y=350 Z=150```  
 
 ### Z-Endstop location  
-klicky-variables.cfg  
-z-calibration.cfg  
+klicky-variables.cfg (variable_z_endstop_x /_y)  
+z-calibration.cfg (nozzle_xy_position)  
+
+### Homing speed
+z-stepper.cfg (homing_speed: 2 #war auf 10)
 
 ### Klicky dock location  
 klicky-variables.cfg  
