@@ -24,9 +24,10 @@ https://ellis3dp.com/Print-Tuning-Guide/
 * PEI Magnetic Sheet  
 https://www.muellerbestellung.de/navi.php?a=39963&lang=eng  
 with 467MP Adhesive  
-* IKEA Dry Box (https://www.printables.com/model/32225-filament-dry-box)  
-* Masterspool Refill System (https://www.myminifactory.com/object/3d-print-universal-spool-twist-and-lock-158373)  
-* Klipper Mod - drop_first_result:true (https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/klipper_mods/klipper%20mod%20-%20drop_first_result.md)
+* IKEA Dry Box https://www.printables.com/model/32225-filament-dry-box  
+* Masterspool Refill System https://www.myminifactory.com/object/3d-print-universal-spool-twist-and-lock-158373  
+https://www.printables.com/model/30376-refill-spool  
+* Klipper Mod - drop_first_result:true https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/klipper_mods/klipper%20mod%20-%20drop_first_result.md
   * ```wget https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/klipper_mods/install_drop_first_result.sh```
   * ```sudo chmod +x install_drop_first_result.sh```
   * ```bash install_drop_first_result.sh```  
