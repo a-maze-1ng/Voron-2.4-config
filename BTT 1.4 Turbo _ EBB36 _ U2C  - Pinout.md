@@ -12,6 +12,9 @@ BTT U2C Pinout [U2C Pinout]()
 | Yellow        | 24 V        |
 | Brown         | GND         |
 
+![grafik](https://github.com/user-attachments/assets/31a4bc5b-535c-47a1-ad95-26da3af5493b)
+
+
 ![5d915c3b-ce41-417a-bf05-887c1da230cd](https://github.com/user-attachments/assets/b3e9c138-2e38-42b7-86f3-c257255bd29f)
 ![57a4a525-31ea-4565-ad69-6bb50510c090](https://github.com/user-attachments/assets/999e5199-ebd2-4c06-82be-f6cbe635ad71)
 
