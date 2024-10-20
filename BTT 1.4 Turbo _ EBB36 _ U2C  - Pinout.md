@@ -16,7 +16,7 @@ BTT U2C Pinout [U2C Pinout]()
 
 
 ### Pinout EBB36
-| Pin           | Remark                  | Remark 2           |
+| Pin           | Function                | EBB36 V1.2 Pinout  |
 | ------------- |-------------------------|--------------------|
 | PA3           | Thermistor Hotend       | TH0                |
 | GND           | Thermistor Hotend       | TH0                |
@@ -29,5 +29,19 @@ BTT U2C Pinout [U2C Pinout]()
 | VIN           | 24V -> 12V Konverter    | FAN2               |
 | ------------- |-------------------------|--------------------|
 | PA1           | Part Cooling Fan        | FAN2               |
+| ------------- |-------------------------|--------------------|
+| PB13          | Hotend                  | Hotend 0           |
+| VIN           | Hotend                  | Hotend 0           |
+| ------------- |-------------------------|--------------------|
+| PB8           | X-Endstop               | Probe              |
+| GND           | X-Endstop               | Probe              |
+| ------------- |-------------------------|--------------------|
+| +5V           | Klicky                  | I2C                |
+| GND           | Klicky                  | I2C                |
+| PB3           | Klicky                  | I2C                |
+| ------------- |-------------------------|--------------------|
+| +5V           | LED                     | RGB                |
+| PD3           | LED                     | RGB                |
+| GND           | LED                     | RGB                |
 
 ![EBB36 CAN V1 1 V1 2-PIN](https://github.com/user-attachments/assets/e71d1fb7-6fac-44d7-b4ae-b998b349c686)
