@@ -13,6 +13,7 @@ BTT U2C Pinout [U2C Pinout]()
 | Brown         | GND         |
 
 ![5d915c3b-ce41-417a-bf05-887c1da230cd](https://github.com/user-attachments/assets/b3e9c138-2e38-42b7-86f3-c257255bd29f)
+![57a4a525-31ea-4565-ad69-6bb50510c090](https://github.com/user-attachments/assets/999e5199-ebd2-4c06-82be-f6cbe635ad71)
 
 
 ### Pinout EBB36
