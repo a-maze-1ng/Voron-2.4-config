@@ -13,3 +13,13 @@ BTT U2C Pinout [U2C Pinout]()
 | Brown         | GND         |
 
 ![5d915c3b-ce41-417a-bf05-887c1da230cd](https://github.com/user-attachments/assets/b3e9c138-2e38-42b7-86f3-c257255bd29f)
+
+
+### Pinout EBB36
+| Pin           | Remark                  | Remark 2       |
+| ------------- |-------------------------|----------------|
+| PA3           | Thermistor Hotend       | TH0            |
+| GND           | Thermistor Hotend       | TH0            |
+| PA0           | Hotend Fan              | FAN1           |
+| +5V           | Hotend Fan              | Probe +5V      |
+| PB9           | Hotend Fan              | Tacho (Signal) |
