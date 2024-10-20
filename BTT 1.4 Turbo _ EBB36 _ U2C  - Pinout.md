@@ -20,6 +20,7 @@ BTT U2C Pinout [U2C Pinout]()
 | ------------- |-------------------------|----------------|
 | PA3           | Thermistor Hotend       | TH0            |
 | GND           | Thermistor Hotend       | TH0            |
+| ------------- |-------------------------|----------------|
 | PA0           | Hotend Fan              | FAN1           |
 | +5V           | Hotend Fan              | Probe +5V      |
 | PB9           | Hotend Fan              | Tacho (Signal) |
