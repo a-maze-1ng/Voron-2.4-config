@@ -7,7 +7,9 @@ BTT U2C Pinout [U2C Pinout]()
 ### Connection between Toolhead and U2C  
 | Colour        | Remark      |
 | ------------- |-------------|
-| Brown         | GND         |
-| Yellow        | 24 V        |
 | Green         | CAN_H       |
 | White         | CAN_L       |
+| Yellow        | 24 V        |
+| Brown         | GND         |
+
+![5d915c3b-ce41-417a-bf05-887c1da230cd](https://github.com/user-attachments/assets/b3e9c138-2e38-42b7-86f3-c257255bd29f)
