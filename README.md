@@ -15,11 +15,13 @@ https://ellis3dp.com/Print-Tuning-Guide/
 
 ## Voron 2.4 hardware / software config
 * Bigtreetech Smart Filament Sensor  
-* Klicky Probe  
+* PCB Klicky Probe  
   * Auto Z-Calibration
   * Drop first result (https://github.com/a-maze-1ng/Voron-2.4-config/tree/main/klipper_mods/drop_first_result)
 * Orbiter 2.0  
-* Stealthburner (https://github.com/elcrni/Voron-Mods/tree/main/Orbiter_2.0_SB_CW2_Enclosed)    
+* XOL Toolhead with CANBUS (https://github.com/Armchair-Heavy-Industries/Xol-Toolhead/tree/main)  
+* U2C (https://github.com/bigtreetech/U2C)  
+* EBB36 (https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20and%20V1.2%20(STM32G0B1)/EBB36%20CAN%20V1.1%20and%20V1.2/Hardware/EBB36%20CAN%20V1.1%26V1.2-PIN.png)   
 * Phaetus Dragon High Flow Hot-End with 0.4 mm Bondtech CHT Nozzle  
 * PEI Magnetic Sheet  
 https://www.muellerbestellung.de/navi.php?a=39963&lang=eng  
@@ -33,7 +35,9 @@ https://www.printables.com/model/30376-refill-spool
   * ```bash install_drop_first_result.sh```  
 
 --  
-no warranty for website links or mods - use at own risk
+deprecated:
+* Stealthburner (https://github.com/elcrni/Voron-Mods/tree/main/Orbiter_2.0_SB_CW2_Enclosed) 
+* no warranty for website links or mods - use at own risk  
 
 ## Voron 2.4 Mods
 
