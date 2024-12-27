@@ -33,6 +33,8 @@ https://www.printables.com/model/30376-refill-spool
   * ```wget https://github.com/a-maze-1ng/Voron-2.4-config/blob/main/klipper_mods/install_drop_first_result.sh```
   * ```sudo chmod +x install_drop_first_result.sh```
   * ```bash install_drop_first_result.sh```  
+* Rigid Z-Drive  
+  * https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Dr-Info/V2.4_z_drive_motor_tensioner_mod   
 
 --  
 deprecated:
