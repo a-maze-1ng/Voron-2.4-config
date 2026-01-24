@@ -31,6 +31,6 @@ note the .csv
 e.g. /tmp/resonances_y_20221014_183905.csv  
 
 ## 6. Connect to RPi via Putty  
-```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_20250528_232655.csv -o "/tmp/2025-05-28_XOL_reassambly_shaper_calibrate_x.png"```  
-```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_20250528_233727.csv -o "/tmp/2025-05-28_XOL_reassambly_shaper_calibrate_y.png"```  
+```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_20260124_234538.csv -o "/tmp/2026-01-24_XOL_new_location_shaper_calibrate_x.png"```  
+```~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_20260124_234854.csv -o "/tmp/2026-01-24_XOL_new_location_shaper_calibrate_y.png"```  
 Optional: download diagram (to be found in /tmp)  
